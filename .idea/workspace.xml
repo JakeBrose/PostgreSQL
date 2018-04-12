@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f12e774-c85a-40c3-8bd8-bc31136c197d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/samuelbrose.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/samuelbrose.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-db.js" beforeDir="false" afterPath="$PROJECT_DIR$/build-db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/beach.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/beach.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="beach.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="beach.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/beach.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="150">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -32,7 +32,25 @@
         <entry file="file://$PROJECT_DIR$/seeders/data/beaches.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lifeguards.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seeders/data/lifeguards.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lifeguard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/lifeguard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -40,8 +58,8 @@
       <file leaf-file-name="build-db.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build-db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -59,8 +77,10 @@
         <option value="$PROJECT_DIR$/config/config.json" />
         <option value="$PROJECT_DIR$/models/index.js" />
         <option value="$PROJECT_DIR$/seeders/data/beaches.json" />
-        <option value="$PROJECT_DIR$/build-db.js" />
         <option value="$PROJECT_DIR$/models/beach.js" />
+        <option value="$PROJECT_DIR$/build-db.js" />
+        <option value="$PROJECT_DIR$/models/lifeguard.js" />
+        <option value="$PROJECT_DIR$/seeders/data/lifeguards.json" />
       </list>
     </option>
   </component>
@@ -74,7 +94,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="62" />
+    <option name="x" value="25" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -95,6 +116,17 @@
               <item name="sequelize_sandcastles" type="b2602c69:ProjectViewProjectNode" />
               <item name="sequelize_sandcastles" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sequelize_sandcastles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sequelize_sandcastles" type="462c0819:PsiDirectoryNode" />
+              <item name="seeders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sequelize_sandcastles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sequelize_sandcastles" type="462c0819:PsiDirectoryNode" />
+              <item name="seeders" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,15 +170,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523478474043</updated>
-      <workItem from="1523478475748" duration="3301000" />
+      <workItem from="1523478475748" duration="5604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3301000" />
+    <option name="totallyTimeSpent" value="5604000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="62" width="1280" height="777" extended-state="0" />
+    <frame x="25" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -202,24 +234,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seeders/data/beaches.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build-db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/beach.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeders/data/beaches.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/lifeguard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeders/data/lifeguards.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
