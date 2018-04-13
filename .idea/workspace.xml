@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f12e774-c85a-40c3-8bd8-bc31136c197d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/beach.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/beach.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/castle.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/castle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lifeguard.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/lifeguard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seeders/data/castles.json" beforeDir="false" afterPath="$PROJECT_DIR$/seeders/data/castles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seeders/data/lifeguards.json" beforeDir="false" afterPath="$PROJECT_DIR$/seeders/data/lifeguards.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="beach.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="beach.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/beach.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -31,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="383">
+              <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -86,9 +80,9 @@
         <option value="$PROJECT_DIR$/seeders/data/castles.json" />
         <option value="$PROJECT_DIR$/seeders/data/lifeguards.json" />
         <option value="$PROJECT_DIR$/seeders/data/tools.json" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/lifeguard.js" />
         <option value="$PROJECT_DIR$/models/beach.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -179,12 +173,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523478474043</updated>
       <workItem from="1523478475748" duration="8403000" />
-      <workItem from="1523630802284" duration="4496000" />
+      <workItem from="1523630802284" duration="5044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12899000" />
+    <option name="totallyTimeSpent" value="13447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="63" width="1280" height="777" extended-state="0" />
@@ -258,13 +252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -321,13 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seeders/data/lifeguards.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -353,6 +333,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
         </state>
       </provider>
     </entry>

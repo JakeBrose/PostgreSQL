@@ -11,6 +11,7 @@ const { Beach, Castle, Lifeguard, Tool } = app.get("models");
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+// Get all of a data type //
 app.get("/beaches", (req, res) => {
   Beach.findAll({include: [{model:Lifeguard, attributes:["name"]}]})
     .then(beaches => {
@@ -54,6 +55,57 @@ app.get("/tools", (req, res) => {
       res.status(500).json({ error: err });
     });
 });
+
+// get one //
+app.get("/beaches/:id", (req, res, next) => {
+  Beach.findOne({
+    raw: true,
+    where: { id: req.params.id },
+    include: [{model:Lifeguard, attributes:["name"]}]
+  })
+    .then( (beach) => {
+      res.status(200).json(beach);
+    })
+    .catch( (err) => {
+    })
+});
+
+app.get("/castles/:id", (req, res, next) => {
+  Castle.findOne({
+    raw: true,
+    where: { id: req.params.id },
+  })
+    .then( (castle) => {
+      res.status(200).json(castle);
+    })
+    .catch( (err) => {
+    })
+});
+
+app.get("/lifeguards/:id", (req, res, next) => {
+  Lifeguard.findOne({
+    raw: true,
+    where: { id: req.params.id },
+  })
+    .then( (lifeguard) => {
+      res.status(200).json(lifeguard);
+    })
+    .catch( (err) => {
+    })
+});
+
+app.get("/tools/:id", (req, res, next) => {
+  Tool.findOne({
+    raw: true,
+    where: { id: req.params.id },
+  })
+    .then( (tool) => {
+      res.status(200).json(tool);
+    })
+    .catch( (err) => {
+    })
+});
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
