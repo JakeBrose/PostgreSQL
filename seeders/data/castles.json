@@ -1,0 +1,28 @@
+{
+  "castles": [
+    {
+      "name": "Black",
+      "description": "Home of the majority of the Crows",
+      "beachId": 1,
+      "toolId": 1
+    },
+    {
+      "name": "Winterfell",
+      "description": "High seat of the Wardens of the North",
+      "beachId": 2,
+      "toolId": 1
+    },
+    {
+      "name": "Dragonstone",
+      "description": "Home to the new Targaryan dynasty",
+      "beachId": 3,
+      "toolId": 1
+    },
+    {
+      "name": "Eastwatch",
+      "description": "Used to be a castle on the wall, now destroyed.",
+      "beachId": 4,
+      "toolId": 1
+    }
+  ]
+}
