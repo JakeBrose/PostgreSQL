@@ -9,7 +9,7 @@ module.exports = function(sequelize, DataTypes) {
 
   Tool.associate = (models) => {
     Tool.hasMany(models.Castle, {
-      foreignKey: 'tool_id'
+      foreignKey: 'toolId'
     });
   };
   return Tool;

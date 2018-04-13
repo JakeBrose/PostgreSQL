@@ -8,16 +8,16 @@ module.exports = function(sequelize, DataTypes) {
 
   Beach.associate = (models) => {
     Beach.hasMany(models.Lifeguard, {
-      foreignKey: 'beach_id'
+      foreignKey: 'beachId'
     })
-      Beach.belongsToMany(models.Lifeguard, {
-        through: {
-          model: 'beach_guards',
-          unique: false
-        },
-        foreignKey: 'BeachId',
-        constraints: false
-      });
+      // Beach.belongsToMany(models.Lifeguard, {
+      //   through: {
+      //     model: 'beach_guards',
+      //     unique: false
+      //   },
+      //   foreignKey: 'beachId',
+      //   constraints: false
+      // });
   };
   return Beach;
 };

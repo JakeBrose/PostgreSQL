@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get("/beaches", (req, res) => {
-  Beach.findAll()
+  Beach.findAll({include: [{model:Lifeguard, attributes:["name"]}]})
     .then(beaches => {
       res.status(200).json(beaches);
     })

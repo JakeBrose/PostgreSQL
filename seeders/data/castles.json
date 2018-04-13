@@ -3,26 +3,26 @@
     {
       "name": "Black",
       "description": "Home of the majority of the Crows",
-      "beach_id": 1,
-      "tool_id": 1
+      "beachId": 1,
+      "toolId": 1
     },
     {
       "name": "Winterfell",
       "description": "High seat of the Wardens of the North",
-      "beach_id": 2,
-      "tool_id": 1
+      "beachId": 2,
+      "toolId": 1
     },
     {
       "name": "Dragonstone",
       "description": "Home to the new Targaryan dynasty",
-      "beach_id": 3,
-      "tool_id": 1
+      "beachId": 3,
+      "toolId": 1
     },
     {
       "name": "Eastwatch",
       "description": "Used to be a castle on the wall, now destroyed.",
-      "beach_id": 4,
-      "tool_id": 1
+      "beachId": 4,
+      "toolId": 1
     }
   ]
 }

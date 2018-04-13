@@ -2,15 +2,15 @@
   "lifeguards": [
     {
       "name": "Jason David Frank",
-      "beach_id": 1
+      "beachId": 1
     },
     {
       "name": "Ohi Mark",
-      "beach_id": 2
+      "beachId": 2
     },
     {
       "name": "Darth Vader",
-      "beach_id": 3
+      "beachId": 3
     }
   ]
 }

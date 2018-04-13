@@ -10,10 +10,10 @@ module.exports = function(sequelize, DataTypes) {
 
   Castle.associate = (models) => {
     Castle.belongsTo(models.Beach, {
-      foreignKey: 'beach_id'
+      foreignKey: 'beachId'
     });
     Castle.belongsTo(models.Tool, {
-      foreignKey: 'tool_id'
+      foreignKey: 'toolId'
     });
   };
   return Castle;
