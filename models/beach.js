@@ -9,7 +9,15 @@ module.exports = function(sequelize, DataTypes) {
   Beach.associate = (models) => {
     Beach.hasMany(models.Lifeguard, {
       foreignKey: 'beach_id'
-    });
+    })
+      Beach.belongsToMany(models.Lifeguard, {
+        through: {
+          model: 'beach_guards',
+          unique: false
+        },
+        foreignKey: 'BeachId',
+        constraints: false
+      });
   };
   return Beach;
 };
